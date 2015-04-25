@@ -1,0 +1,2 @@
+# administrator
+Maguma Administrator
