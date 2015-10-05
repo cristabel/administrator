@@ -1,0 +1,100 @@
+.box-header .box-title {
+    float: left;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.btn-tool {
+    float: right;
+}
+.table img {
+    border: 1px solid #605ca8;
+    padding: 1%;
+}
+
+.btn-mac {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #d4d4d4;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    font: 14px/normal sans-serif;
+    color: #333;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    background-color: #F7F7F7;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    border-radius: 0.2em;
+    zoom: 1;
+}
+.btn-mac:hover,
+.btn-mac:focus,
+.btn-mac:active,
+.btn-mac.active {
+    border-color: #C7C7C7;
+    text-decoration: none;
+    color: #333;
+    background-color: #D7D7D7;
+}
+.btn-mac.btn-mac-focus,
+.btn-mac.btn-mac-focus:hover
+.btn-mac.btn-mac-focus:focus,
+.btn-mac.btn-mac-focus:active,
+.btn-mac.btn-mac-focus.active
+{
+    font-weight: bold;
+}
+.btn-mac.btn-mac-primary {
+    background-color: #00b389;
+    border-color: #02A17C;
+    color: #fff;
+}
+.btn-mac.btn-mac-primary:hover,
+.btn-mac.btn-mac-primary:focus,
+.btn-mac.btn-mac-primary:active,
+.btn-mac.btn-mac-primary.active {
+    border-color: #00b389;
+    color: #fff;
+    background-color: #02A17C;
+}
+.btn-mac.btn-mac-danger {
+    color: #900;
+}
+.btn-mac.btn-mac-danger:hover,
+.btn-mac.btn-mac-danger:focus,
+.btn-mac.btn-mac-danger:active,
+.btn-mac.btn-mac-danger.active {
+    border-color: #b53f3a;
+    color: #fff;
+    background-color: #dc5f59;
+}
+.btn-mac.btn-mac-feed {
+    color: #f8bc2e;
+}
+.btn-mac.btn-mac-feed:hover,
+.btn-mac.btn-mac-feed:focus,
+.btn-mac.btn-mac-feed:active,
+.btn-mac.btn-mac-feed.active {
+    border-color: #E7A60C;
+    color: #fff;
+    background-color: #f8bc2e;
+}
+
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.thumbnail {
+    margin-bottom: 0;
+}
+.thumbnail input[type="file"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.thumbnail img {
+    margin-left: 0;
+}

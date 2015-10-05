@@ -1,0 +1,20 @@
+{
+    "name": "cristabel/administrator",
+    "description": "Cristabel Administrator",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Cristabel\\Administrator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel Cabada",
+            "email": "tohuma@gmail.com"
+        }
+    ]
+}
