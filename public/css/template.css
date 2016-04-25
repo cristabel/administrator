@@ -98,3 +98,21 @@
 .thumbnail img {
     margin-left: 0;
 }
+
+.form-field-required-error {
+    padding: 5px 0;
+}
+.form-field-required-error label.control-label {
+    color: #ff0039;
+}
+.form-field-required-error input[type="text"],
+.form-field-required-error input[type="text"]:focus,
+.form-field-required-error select
+{
+    border: 1px solid #ff0039;
+    background-color: rgba(255, 0, 57, 0.05);
+}
+#ff0039
+.form-field-required i.asterisk {
+    color: red;
+}
