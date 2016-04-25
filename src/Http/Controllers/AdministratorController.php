@@ -8,7 +8,6 @@ class AdministratorController extends Controller {
 
 	public function getIndex()
 	{
-        dd( config('cristabel.administrator.sidebar') );
 		return view('administrator::index');
 	}
     

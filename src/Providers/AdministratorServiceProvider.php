@@ -50,7 +50,7 @@ class AdministratorServiceProvider extends ServiceProvider {
 
     protected function registerSidebarFacade()
     {
-        $this->app->bind('sidebar', function ($app) {
+        $this->app->bind('sidebar', function () {
             return new \Cristabel\Administrator\Facades\Implementation\Sidebar;
         });
 

@@ -1,5 +1,5 @@
 <!-- Logo -->
-<a href="index2.html" class="logo">
+<a href="{{ url('/') }}" class="logo">
 	<!-- mini logo for sidebar mini 50x50 pixels -->
 	<span class="logo-mini">
 		<b>{{ Config::get('cristabel.administrator.shortname') }}</b>
